@@ -20,7 +20,7 @@ class MapDrawingRoute extends StatefulWidget {
 
 class _MapDrawingRouteState extends State<MapDrawingRoute> {
 
-  static String googleAPIKey = 'AIzaSyDolo1Le0868irzhrgQ6B4xqW7IzaV3x08';
+  static String googleAPIKey = '------------------------------------------';
   final GoogleMapsPlaces _places = GoogleMapsPlaces(apiKey: googleAPIKey);
   TextEditingController sourceController = TextEditingController();
   final Completer<GoogleMapController> _controller = Completer();
