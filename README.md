@@ -1,10 +1,18 @@
-# fluttersanadtech
+# Flutter google map.
 
-A new Flutter application.
+I've been working on Google map
+- Maps as widget
+- Drawing polygons
+- User location (updated)
+- Online / Offline
+- Marker path route
+- Draw a route, along an existing road, between two points
 
 ## Getting Started
 
-<video style="width:100%" controls src="WhatsApp Video 2020-05-10 at 12.12.40 AM.mp4" type="video/mp4"/>
+setup: add your GOOGLE API KEY inside Manifest.xml and All Pages
+
+i developed a Mobile - App for Android that supports creating (CRUD) one or many geofences (polygons) and place/remove geo markers on the same Map. The app should prevent and warn the end-user if two or more polygons are overlapping or if he's trying to add a marker outside the defined polygons. If the App is closed and reopened the end-user should find all the polygons and markers previously defined before the app was closed.
 
 
 This project is a starting point for a Flutter application.
